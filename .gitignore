@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+venv/
+envs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS and editor files
+.DS_Store
+.vscode/
+
+# Datasets and model checkpoints
+data/
+datasets/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.zip
+*.h5
+*.npz
+
+# Temporary files and sensitive configuration
+cache/
+logs/
+wandb/
+.env
+.env.*
+
+# Large experiment artifacts
+*.npy
